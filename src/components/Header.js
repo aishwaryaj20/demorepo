@@ -24,16 +24,16 @@ function Header() {
       )}
 
       <ul className={`${showHeader ? "show-header" : "hide-header"} n-box1`}>
-        <li className={`${path == "/" && "active"}`}>
+        <li className={`${path === "/" && "active"}`}>
           <Link to="/">Home</Link>
         </li>
-        <li className={`${path == "/projects" && "active"}`}>
+        <li className={`${path === "/projects" && "active"}`}>
           <Link to="projects">Projects</Link>
         </li>
-        <li className={`${path == "/courses" && "active"}`}>
+        <li className={`${path === "/courses" && "active"}`}>
           <Link to="/courses">Learnings</Link>
         </li>
-        <li className={`${path == "/contact" && "active"}`}>
+        <li className={`${path === "/contact" && "active"}`}>
           <Link to="/contact">Contact</Link>
         </li>
       </ul>
