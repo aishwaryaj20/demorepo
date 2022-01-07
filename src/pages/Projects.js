@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import {FaLaptopCode} from 'react-icons/fa'
-import projectsdata from "./projectsdata";
+
 function Projects() {
   return (
     <div>
