@@ -25,7 +25,7 @@ function Home() {
           </div>
         </div>
         <br />
-        <img className="pic" data-aos="fade-right" src="./p1p1.jpg"></img>
+        <img className="pic" alt="" data-aos="fade-right" src="./p1p1.jpg"></img>
       </div>
 
       <Courosel />
