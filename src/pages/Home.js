@@ -1,7 +1,7 @@
 import React from "react";
 import Courosel from "../components/Courosel";
 import Header from "../components/Header";
-import { FaGithub } from "react-icons/fa";
+
 import {BsFileEarmarkArrowDownFill } from "react-icons/bs"
 function Home() {
   return (
