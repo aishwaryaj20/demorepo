@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { RiMenu3Fill, RiCloseFill } from "react-icons/ri";
+import {  RiCloseFill } from "react-icons/ri";
 import { CgMenuGridO } from "react-icons/cg";
 import { Link } from "react-router-dom";
 function Header() {
